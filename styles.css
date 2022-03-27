@@ -1,0 +1,98 @@
+* {
+	/* border: 1px dashed red; */
+	min-height: 10px;
+	font-family: 'Roboto', sans-serif;
+    padding: 0px;
+}
+
+body {
+	background-color: black;
+}
+
+.TheInstagramPost {
+	background-color: white;
+	width: 350px;
+	height: 500px;
+	margin: auto;
+}
+
+.imagen img {
+	width: 350px;
+	height: 300px;
+	object-fit: cover;
+}
+
+.piedepagina p {
+	display: flex;
+    text-align: justify;
+	font-size: 13px;
+}
+
+.pdos {
+	padding-top: 0;
+	padding-left: 8px;
+	padding-bottom: 8px;
+	padding-right: 8px;
+}
+
+.puno { 
+	padding-top: 8px;
+	padding-left: 8px;
+	padding-bottom: 0px;
+	padding-right: 8px;
+}
+
+.iconos {
+	display: flex;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.header {
+    display: flex;
+    height: 30px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.header i {
+    font-size: 20px;
+    padding: 3px 1px;
+}
+
+.header p {
+    font-size: 11px;
+    padding: 2px;
+}
+
+.ellipsis {
+    display: flex;
+   justify-content: flex-end;
+   width: 350px;
+   padding-right: 10px;
+    
+}
+
+
+.header p {
+    margin: 0px;
+}
+
+.iconos {
+    display: flex;
+    width: 340px;
+}
+
+.iconos .fa-paper-plane {
+    width: 350px;
+    padding-left: 5px;
+}
+
+.iconos .fa-comment {
+    padding-left: 5px;
+}
+
+.fa-bookmark {
+    font-size: 20px;
+    padding-right: 10px;
+}
